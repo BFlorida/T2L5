@@ -10,3 +10,5 @@ ls -a /dev/tty* | grep [1234]$
 
 ls -a /dev/t**C1 "El arxiu no existeix, per aixó no apareix a la recerca". 
 
+ls -a 
+
