@@ -5,3 +5,6 @@ ls -a /tmp
 ls -a/etc /t* -r
 
 ls -a /dev/tty??
+
+ls -a /dev/tty* | grep [1234]$
+
