@@ -3,3 +3,8 @@
 1. grep -i -o "quijote" | wc -l --> (848 vegades apareix "quijote" y "Quijote" al fitxer el_quijote.txt)
 
 2. grep -v "quijote" el_quijote.txt | wc -l
+
+3. Cercar en tots el documents on apareix "quijote" o "Quijote" -->  [ grep -r -i "quijote" el_quijote.txt ] comptar el numero de "quijote" o "Quijote" que apareix --> [ grep -rio "quijote" | wc -l ] 
+
+
+
