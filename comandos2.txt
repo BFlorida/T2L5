@@ -15,3 +15,5 @@
 17. [ cd PRUEBA/ --> mkdir dir1 dir2 dir3 --> cd dir1 --> mkdir dir11 --> cd .. --> cd dir3 --> mkdir dir31 --> cd dir31 --> mkdir dir311 dir312 ]
 
 18. [Estem a /dir31] --> (cambiem a /)[ cd / ] --> (anem a /etc) [ cd /etc ] --> (copiem hostname a Escritorio/PRUEBA/mensaje) [ cat hostname | cp -r hostname /home/alumno/Escritorio/PRUEBA/mensaje ]
+
+19. (estem a mensaje) [ cat hostname | cp -r hostname ../dir2 dir3 ]
