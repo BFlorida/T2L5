@@ -1,0 +1,21 @@
+2j10-20
+
+10. [ cd .. --> / --> cd tmp ]
+
+11. --- 
+
+12. date 
+
+13. cd ../home14. pwd 
+
+15. ls -i .
+
+16. [ cd /alumno/Escritorio --> mkdir PRUEBA --> l]
+
+17. [ cd PRUEBA/ --> mkdir dir1 dir2 dir3 --> cd dir1 --> mkdir dir11 --> cd .. --> cd dir3 --> mkdir dir31 --> cd dir31 --> mkdir dir311 dir312 ]
+
+18. [Estem a /dir31] --> (cambiem a /)[ cd / ] --> (anem a /etc) [ cd /etc ] --> (copiem hostname a Escritorio/PRUEBA/mensaje) [ cat hostname | cp -r hostname /home/alumno/Escritorio/PRUEBA/mensaje ]
+
+19. (estem a mensaje) [ cat hostname | cp -r hostname ../dir2 dir3 ]
+
+20. [ cat hostname | cp -r hostname ../dir1 dir2 dir3 ]
