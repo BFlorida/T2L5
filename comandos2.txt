@@ -17,3 +17,5 @@
 18. [Estem a /dir31] --> (cambiem a /)[ cd / ] --> (anem a /etc) [ cd /etc ] --> (copiem hostname a Escritorio/PRUEBA/mensaje) [ cat hostname | cp -r hostname /home/alumno/Escritorio/PRUEBA/mensaje ]
 
 19. (estem a mensaje) [ cat hostname | cp -r hostname ../dir2 dir3 ]
+
+20. [ cat hostname | cp -r hostname ../dir1 dir2 dir3 ]
