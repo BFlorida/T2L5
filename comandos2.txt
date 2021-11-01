@@ -11,3 +11,5 @@
 15. ls -i .
 
 16. [ cd /alumno/Escritorio --> mkdir PRUEBA --> l]
+
+17. [ cd PRUEBA/ --> mkdir dir1 dir2 dir3 --> cd dir1 --> mkdir dir11 --> cd .. --> cd dir3 --> mkdir dir31 --> cd dir31 --> mkdir dir311 dir312 ]
