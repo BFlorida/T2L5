@@ -1,3 +1,5 @@
 
 
-1. grep -i -o "quijote" | wc -l --> 848 vegades apareix "quijote" y "Quijote" al fitxer el_quijote.txt
+1. grep -i -o "quijote" | wc -l --> (848 vegades apareix "quijote" y "Quijote" al fitxer el_quijote.txt)
+
+2. grep -v "quijote" el_quijote.txt | wc -l
