@@ -17,4 +17,59 @@
 9. ls -R 
 
 
+2j10-20
+
+
+
+10. [ cd .. --> / --> cd tmp ]
+
+11. --- 
+
+12. date 
+
+13. cd ../home
+
+14. pwd 
+
+15. ls -i .
+
+16. [ cd /alumno/Escritorio --> mkdir PRUEBA --> l]
+
+17. [ cd PRUEBA/ --> mkdir dir1 dir2 dir3 --> cd dir1 --> mkdir dir11 --> cd .. --> cd dir3 --> mkdir dir31 --> cd dir31 --> mkdir dir311 dir312 ]
+
+18. [Estem a /dir31] --> (cambiem a /)[ cd / ] --> (anem a /etc) [ cd /etc ] --> (copiem hostname a Escritorio/PRUEBA/mensaje) [ cat hostname | cp -r hostname /home/alumno/Escritorio/PRUEBA/mensaje ]
+
+19. (estem a mensaje) [ cat hostname | cp -r hostname ../dir2 dir3 ]
+
+20. [ cat hostname | cp -r hostname ../dir1 dir2 dir3 ]
+
+
+
+
+1. grep -i -o "quijote" | wc -l --> (848 vegades apareix "quijote" y "Quijote" al fitxer el_quijote.txt)
+
+2. grep -v "quijote" el_quijote.txt | wc -l
+
+3. Cercar en tots el documents on apareix "quijote" o "Quijote" -->  [ grep -r -i "quijote" el_quijote.txt ] comptar el numero de "quijote" o "Quijote" que apareix --> [ grep -rio "quijote" | wc -l ] 
+
+4. 
+
+5. sed 's/panza/barriga/g' el_quijote.txt
+
+6. sed 's/panza/barriga/gi' el_quijote.txt
+
+7. head -c 4 el_quijote.txt
+
+8. head -c 4000 el_quijote.txt
+
+9. head -n 25 | tail -n 14 el_quijote.txt
+
+10. sort -f -r el_quijote.txt
+
+
+
+
+
+
+
 
