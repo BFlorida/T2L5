@@ -10,5 +10,9 @@
 
 5. sed 's/panza/barriga/g' el_quijote.txt
 
+6. sed 's/panza/barriga/gi' el_quijote.txt
+
+
+
 
 
