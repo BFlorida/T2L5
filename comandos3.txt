@@ -6,5 +6,9 @@
 
 3. Cercar en tots el documents on apareix "quijote" o "Quijote" -->  [ grep -r -i "quijote" el_quijote.txt ] comptar el numero de "quijote" o "Quijote" que apareix --> [ grep -rio "quijote" | wc -l ] 
 
+4. 
+
+5. sed 's/panza/barriga/g' el_quijote.txt
+
 
 
