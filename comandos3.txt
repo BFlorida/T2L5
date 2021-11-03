@@ -18,6 +18,8 @@
 
 9. head -n 25 | tail -n 14 el_quijote.txt
 
+10. sort -f -r el_quijote.txt
+
 
 
 
