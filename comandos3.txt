@@ -16,6 +16,8 @@
 
 8. head -c 4000 el_quijote.txt
 
+9. head -n 25 | tail -n 14 el_quijote.txt
+
 
 
 
